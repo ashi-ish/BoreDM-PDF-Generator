@@ -20,7 +20,7 @@ const MyDoc = () => (
             <View style={{ flexDirection: "row", alignItems: "center" }}>
               <View style={{ marginRight: 8 }}>
                 <Text
-                  style={{ fontSize: 14, fontWeight: "bold", lineHeight: 0.9 }}
+                  style={{ fontSize: 14, fontWeight: "bold", lineHeight: 0.9, fontStyle: "italic" }}
                 >
                   ///
                 </Text>
