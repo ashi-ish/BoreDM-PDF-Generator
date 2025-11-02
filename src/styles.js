@@ -2,8 +2,8 @@ import { StyleSheet } from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
   page: {
-    padding: 20,
-    fontSize: 10,
+    padding: 12,
+    fontSize: 9,
     fontFamily: "Helvetica",
   },
   table: {
@@ -16,30 +16,30 @@ const styles = StyleSheet.create({
   logoCell: {
     width: "25%",
     borderRight: "1pt solid black",
-    padding: 8,
+    padding: 5,
     justifyContent: "center",
     alignItems: "center",
   },
   titleCell: {
     width: "50%",
     borderRight: "1pt solid black",
-    padding: 8,
+    padding: 5,
     justifyContent: "flex-start",
     alignItems: "center",
   },
   pageCell: {
     width: "25%",
-    padding: 8,
+    padding: 5,
     justifyContent: "center",
     alignItems: "center",
   },
   mainTitle: {
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: "bold",
     textAlign: "center",
   },
   subtitle: {
-    fontSize: 11,
+    fontSize: 10,
     textAlign: "center",
     marginTop: 2,
   },
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
   dataCell: {
     width: "42%",
     borderRight: "1pt solid black",
-    padding: 4,
+    padding: 2,
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "flex-start",
@@ -66,14 +66,14 @@ const styles = StyleSheet.create({
   dataCellRight: {
     width: "33%",
     borderRight: "1pt solid black",
-    padding: 4,
+    padding: 2,
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "flex-start",
   },
   remarksCell: {
     width: "25%",
-    padding: 4,
+    padding: 2,
     justifyContent: "flex-start",
     alignItems: "flex-start",
   },
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
   dataCellWide: {
     width: "48%",
     borderRight: "1pt solid black",
-    padding: 4,
+    padding: 2,
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "flex-start",
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
   dataCellRightWide: {
     width: "52%",
     borderRight: "1pt solid black",
-    padding: 4,
+    padding: 2,
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "flex-start",
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
   remarksColumn: {
     width: "45%",
     borderBottom: "1pt solid black",
-    padding: 4,
+    padding: 2,
     justifyContent: "flex-start",
     alignItems: "flex-start",
   },
@@ -118,14 +118,14 @@ const styles = StyleSheet.create({
   fullRowLeft: {
     width: "26.4%", // 48% of 55% = 26.4%
     borderRight: "1pt solid black",
-    padding: 4,
+    padding: 2,
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "flex-start",
   },
   fullRowRight: {
     width: "73.6%", // 52% of 55% + 45% = 28.6% + 45% = 73.6%
-    padding: 4,
+    padding: 2,
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "flex-start",
